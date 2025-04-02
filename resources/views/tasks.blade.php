@@ -14,8 +14,8 @@
 
     <div class="container my-5">
         <!-- Logo -->
-        <div class="text-center mb-4">
-            <img src="../assets/logo.png" alt="Company Logo" class="img-fluid" style="max-height: 60px;">
+        <div class="mb-4">
+            <img src="{{ asset('assets/logo.png') }}" alt="Company Logo" class="img-fluid" style="max-height: 60px;">
         </div>
 
         <!-- Task Input -->
