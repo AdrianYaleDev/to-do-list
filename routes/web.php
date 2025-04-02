@@ -14,6 +14,9 @@ use App\Http\Controllers\TaskController;
 |
 */
 Route::get('/', [TaskController::class, 'index']);
+Route::post('/addTask', [TaskController::class, 'addTask']);
+Route::post('/toggleTask/{id}', [TaskController::class, 'toggleTask']);
+Route::post('/deleteTask/{id}', [TaskController::class, 'deleteTask']);
 
 
 // Route::get('/', function () {
